@@ -13,7 +13,8 @@ public class StartApp {
 		
 		SellerDao sellerDao = DaoFactory.createSellerDao();
 		
-		Seller seller = sellerDao.findById(3);
+		System.out.println("\n-------TEST01: seller findById-------");
+		Seller seller = sellerDao.findById(2);
 		
 		System.out.println(seller);
 		
